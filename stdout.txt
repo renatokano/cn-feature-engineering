@@ -1,0 +1,23 @@
+============================= test session starts ==============================
+platform darwin -- Python 3.7.3, pytest-4.6.2, py-1.8.0, pluggy-0.12.0 -- /Users/renatokano/codenation/data-science-4/venv/bin/python
+cachedir: .pytest_cache
+rootdir: /Users/renatokano/codenation/data-science-4
+collecting ... collected 7 items
+
+test_submit.py::test_q1 PASSED                                           [ 14%]
+test_submit.py::test_q2 PASSED                                           [ 28%]
+test_submit.py::test_q3 PASSED                                           [ 42%]
+test_submit.py::test_q4 PASSED                                           [ 57%]
+test_submit.py::test_q5 PASSED                                           [ 71%]
+test_submit.py::test_q6 PASSED                                           [ 85%]
+test_submit.py::test_q7 PASSED                                           [100%]
+
+=============================== warnings summary ===============================
+venv/lib/python3.7/site-packages/ipywidgets/widgets/widget_selection.py:9
+venv/lib/python3.7/site-packages/ipywidgets/widgets/widget_selection.py:9
+  /Users/renatokano/codenation/data-science-4/venv/lib/python3.7/site-packages/ipywidgets/widgets/widget_selection.py:9: DeprecationWarning: Using or importing the ABCs from 'collections' instead of from 'collections.abc' is deprecated, and in 3.8 it will stop working
+    from collections import Mapping, Iterable
+
+-- Docs: https://docs.pytest.org/en/latest/warnings.html
+-- generated xml file: /Users/renatokano/codenation/data-science-4/output.xml --
+===================== 7 passed, 2 warnings in 4.55 seconds =====================
